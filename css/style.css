@@ -1,0 +1,38 @@
+.container-fluid {
+  height: 580px; }
+
+.c1 {
+  background-repeat: none;
+  height: 585px;
+  background-image: url(../img/ep1.png);
+  padding-left: 10%;
+  background-size: 100% 100%;
+  border-bottom: solid 2px #96d610; }
+  .c1 #a1 {
+    padding-left: 5%; }
+  .c1 h2 {
+    padding-top: 10%;
+    font-size: 30pt;
+    color: #86d610; }
+  .c1 p {
+    color: white;
+    font-size: 17pt;
+    padding-bottom: 5%; }
+  .c1 #c12 {
+    border: solid 1px #96d610;
+    padding: 15px 70px;
+    background: black;
+    text-decoration: none;
+    color: #96d610; }
+  .c1 #c13 {
+    border: solid 1px #96d610;
+    padding: 15px 70px;
+    background: none;
+    text-decoration: none;
+    color: #96d610; }
+  .c1 #c12:hover {
+    background: #96d610;
+    color: black; }
+  .c1 #c13:hover {
+    background: #96d610;
+    color: black; }
