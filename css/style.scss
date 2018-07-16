@@ -1,0 +1,80 @@
+$colorg:#a3e90c;
+body{
+	margin: 0;
+	padding: 0;
+}
+#container-fluid{
+	position: relative;	
+	.boxhai{
+		width: 100%;
+		height: 55px;
+		position: fixed;
+		border-bottom: solid 1px green;
+		background: rgba(7,7,7,0.5);
+		img{
+			margin-top: -10px;
+		}
+		.navbar-nav{
+			.nav-item{
+				a{
+					color:white;
+					margin-top: -15px;
+					font-size: 13px;
+					&:hover{
+    				color: $colorg;
+    				font-size: 14px;
+					text-decoration: none;
+				}
+				}
+
+			}
+			.hm1{
+				a{
+			color: $colorg;
+			}
+		}
+			.hm2{
+				margin-left: 100px;
+				margin-top: -9px;
+				a{
+					color:$colorg;
+				}
+		}
+			.hm3{
+			  a{
+				img{
+					width: 180px;
+					height: 40px;
+					margin-top: -24px;
+					margin-left: 20px;
+				}
+			   }
+			}
+			.hm4{
+			  a{
+				img{
+					width: 180px;
+					height: 40px;
+					margin-top: -24px;
+					margin-left: 20px;
+				}
+			   }
+			}
+			.hm5{
+			  a{
+	  				img{
+					width: 40px;
+					height: 40px;
+					border-radius: 10px;
+					padding: 5px;
+					margin-top: -24px;
+					margin-left: 20px;
+					border: solid 1px $colorg;
+
+				}
+			   }
+			}
+		}
+
+	}
+}
