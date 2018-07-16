@@ -1,0 +1,45 @@
+.nen .gioithieu .nd .nut, .nen .gioithieu .nd .nut1 {
+  width: 42%;
+  height: 11%;
+  margin: 2%;
+  float: left;
+  text-align: center;
+  padding: 2%;
+  font-size: 20px;
+  border-radius: 2.5%; }
+
+.nen .gioithieu {
+  height: 650px;
+  float: left; }
+
+.nen {
+  height: 650px;
+  background-image: url(../img/live-performance-pc.png);
+  background-position: center;
+  float: left; }
+  .nen .gioithieu .nd {
+    width: 82%;
+    height: 100%;
+    padding-top: 15%;
+    float: right; }
+    .nen .gioithieu .nd p {
+      font-size: 20px; }
+    .nen .gioithieu .nd .nut {
+      background: #011826; }
+      .nen .gioithieu .nd .nut a {
+        color: #89c010;
+        text-decoration: none; }
+      .nen .gioithieu .nd .nut:hover {
+        background: white;
+        border: solid 2px black; }
+        .nen .gioithieu .nd .nut:hover a {
+          color: #011826; }
+    .nen .gioithieu .nd .nut1 {
+      border: solid 2px black; }
+      .nen .gioithieu .nd .nut1 a {
+        color: #011826;
+        text-decoration: none; }
+      .nen .gioithieu .nd .nut1:hover {
+        background: #011826; }
+        .nen .gioithieu .nd .nut1:hover a {
+          color: #89c010; }
